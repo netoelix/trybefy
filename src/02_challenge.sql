@@ -9,7 +9,7 @@ CREATE TABLE users (
     full_name VARCHAR(50) NOT NULL,
     email VARCHAR(50) UNIQUE NOT NULL,
     birthday DATE NOT NULL,
-    active BOOLEAN DEFAULT TRUE,
+    active BOOLEAN NOT NULL DEFAULT TRUE,
     plan_id INTEGER NOT NULL,
     FOREIGN KEY (plan_id) REFERENCES plans(id)
 );
