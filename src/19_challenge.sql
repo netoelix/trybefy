@@ -1,4 +1,4 @@
-SELECT son.title AS 'Título da música', son.duration_in_seconds AS 'Duração', al.title AS 'Álbum'
+SELECT son.title AS 'Título', son.duration_in_seconds AS 'Duração', al.title AS 'Álbum'
 FROM songs AS son
 INNER JOIN albums AS al
 ON son.album_id = al.id
