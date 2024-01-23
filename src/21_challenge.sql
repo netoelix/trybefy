@@ -3,4 +3,4 @@ FROM albums AS al
 INNER JOIN songs AS son
 ON al.id = son.album_id
 GROUP BY al.title
-ORDER BY `Duração Total` DESC;
+ORDER BY `Duração` DESC;
