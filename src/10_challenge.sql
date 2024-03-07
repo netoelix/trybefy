@@ -35,3 +35,5 @@ VALUES('Thriller', 1982, 1),
 ('Build Up', 1970, 5),
 ('Fruto Proibido', 1975, 5),
 ('Entradas e Bandeiras', 1976, 5);
+
+SELECT * FROM albums
